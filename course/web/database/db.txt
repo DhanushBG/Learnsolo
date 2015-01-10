@@ -1,0 +1,16 @@
+database---> course
+
+course
+create database course;
+
+use course;
+
+reg_course
+create table reg_course(name varchar(50),userid varchar(50),password varchar(50),cpassword varchar(50));
+
+staff_login
+create table staff_login(staffid varchar(50),password varchar(50));
+
+insert values in to staff_login table
+INSERT INTO `staff_login` (`staffid`, `password`) VALUES
+('001', 'staff');

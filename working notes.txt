@@ -1,0 +1,30 @@
+learnsOlo
+1.instal "xampp-win32-1.8.3-3-VC11-installer" server
+2.Start the Xampp controler and start "apache" & "Mysql" 
+3.create database according to the database.txt in localhost->phpadmin 
+4.paste the projects folder in the "path: -> xampp -> htdocs" folder
+5.in the browser url type http:\\localhost\projects
+6.start with the "start with learnsOlo"
+
+mail function to work
+1.go to php.ini in php folder and find "mail function" 
+2.change  "SMTP = smtp.gmail.com" and "smtp_port = 587" make sure u remove the comments for it..by removing semicolon.
+3.change "sendmail_from =anymailid@.com"
+4.remove comment for 'sendmail_path = "\"F:\xampp\sendmail\sendmail.exe\" -t"
+5.comment "sendmail_path="F:\xampp\mailtodisk\mailtodisk.exe" this line.
+
+sendmail
+6.go to sendmail.ini in sendmail folder 
+7.change "smtp_server=smtp.gmail.com"
+8.change "smtp_port=587"
+9.remove comment for "error_logfile=error.log" and "debug_logfile=debug.log"
+10.set "auth_username=learnsolo123@gmail.com" and "auth_password=learnsolo007"
+11.set "force_sender=learnsolo123@gmail.com"
+12.make sure rest of the statments are commented
+File upload to work
+1. Set post_max_size to 1000m in your php.ini file
+2.set uplaod_file_size to 1000m in your php.ini file
+
+"for mail function to make sure your antivirus is turn off"
+
+@ranjith....................[R]
